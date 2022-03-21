@@ -13,7 +13,7 @@ public class TeacherController {
 	@GetMapping(path = "/teachers")
 	public String getTeachers() {
 		
-		List<String> list = Arrays.asList("ajay","raj","vicky");
+		List<String> list = Arrays.asList("ajay","raj","raju");
 		return list.toString();
 	}
 	
